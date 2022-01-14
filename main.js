@@ -16,3 +16,5 @@ setTimeout(function ()
 {
   alert('Thong bao')
  }, 1000)  // set time de hien o thong bao
+
+ 
