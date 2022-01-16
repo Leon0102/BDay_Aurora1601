@@ -1,14 +1,50 @@
-:root { 
-    --text-color: rgb(0, 174, 255);
+*{
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: var(--text-color);
-
-
+html , body{
+    font-family: 'Montserrat', sans-serif;
 }
-
-html{
-    font-family: nunito ;
-    background-image: url(./img/Home_CheckitNOW.svg)
-
+.container{
+    min-width: 100%;
+    min-height: 100vh;
+    background : url('./image/background01.png')  no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box__text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box__img{
+    max-width: 450px;
+}
+.box__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+a{
+    width: 150px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.container__video{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background : url('./image/background01.png')  no-repeat center;
+    background-size: cover;
 }
