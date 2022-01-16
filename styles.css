@@ -20,7 +20,8 @@ html , body{
 }
 .box__text{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    color: aliceblue;
 }
 .box__img{
     max-width: 450px;

@@ -6,9 +6,9 @@ prompt ('z thi nhap passwork di') // hien le o thong bao xac nhan va khung input
 var fullName = 'Nguyễn Thị Thãi'
 alert (fullName)
 
-console.log('Day la dong log') 
+//console.log('Day la dong log') 
 
-// bat len thong bao alert, confirm, prompt 
+/* bat len thong bao alert, confirm, prompt 
 confirm 
 
 
@@ -62,3 +62,5 @@ setTimeout(function ()
   });
 };
 Slider();
+
+*/
